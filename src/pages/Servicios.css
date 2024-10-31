@@ -1,0 +1,48 @@
+/* Contenedor principal que agrupa ambos cuadros */
+.servicios-container {
+  display: flex;
+  gap: 5px; /* Espacio entre los cuadros */
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+/* Estilo para el primer cuadro */
+.cuadro1 {
+  background-color: #f0f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  display: flex;
+  position: relative;
+  top: 6rem;
+  left: -11rem;
+}
+
+/* Estilo para el segundo cuadro */
+.cuadro2 {
+  background-color: #e6f7ff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+  display: flex;
+  position: relative;
+  top: 6rem;
+  left: -3rem;
+}
+.servicios-container h1 {
+  background-color: aqua;
+  align-items: center;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0rem;
+  left: 31rem;
+}

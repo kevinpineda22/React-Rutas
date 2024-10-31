@@ -1,0 +1,43 @@
+
+  
+  /* Estilos para el header */
+  .encabezado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Estilos para los enlaces */
+  .enlace {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .enlace:hover {
+    color: #00bfa6;
+    border-bottom: 2px solid #00bfa6;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .encabezado {
+      flex-direction: column;
+      padding: 1rem;
+    }
+    .enlace {
+      font-size: 1.2rem;
+      padding: 0.5rem 0;
+    }
+  }
+  

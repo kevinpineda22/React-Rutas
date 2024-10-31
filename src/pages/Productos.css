@@ -1,0 +1,40 @@
+/* Contenedor principal para centrar el contenido y alinear las imágenes */
+.productos-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.productos-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+/* Contenedor de las imágenes en fila */
+.imagenes-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Espacio entre las imágenes */
+    flex-wrap: wrap;
+    position: relative;
+    top: 4rem;
+    
+    
+}
+
+/* Estilo para cada imagen */
+.producto-imagen {
+    
+    width: 200px;
+    height: 300px;
+    object-fit: contain; /* Asegura que la imagen se ajuste sin deformarse */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px red;
+    transition: transform 0.2s; /* Efecto al pasar el mouse */
+}
+
+.producto-imagen:hover {
+    transform: scale(1.05); /* Agranda ligeramente la imagen al pasar el mouse */
+}

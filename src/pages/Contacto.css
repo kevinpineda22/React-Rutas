@@ -1,0 +1,69 @@
+/* Estilo del contenedor principal para centrar el contenido */
+.contacto-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: #f5f5f5;
+}
+.contacto-container h1{
+    font-size: 2.5rem;
+    color: #0077b6;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    top: -18rem;
+    left: 18rem;
+}
+
+/* Estilo del cuadro principal */
+.contacto-cuadro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 462px;
+    height: 360px;
+    border: 2px solid #0077b6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background-color: #e6f7ff;
+}
+
+/* Estilo para el legend */
+.contacto-cuadro legend {
+    font-size: 1.5rem;
+    color: #0077b6;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+/* Estilo para el label */
+.contacto-cuadro label {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Estilo del input de fecha */
+.date-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Estilo del ComboBox */
+.comboBox {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    color: #333;
+}
